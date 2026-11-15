@@ -1,0 +1,25 @@
+{
+  "selected_features": [
+    "Curricular units 2nd sem (approved)",
+    "Tuition fees up to date",
+    "Course",
+    "Curricular units 1st sem (evaluations)"
+  ],
+  "binaires": [
+    "Tuition fees up to date"
+  ],
+  "nominales": [
+    "Course"
+  ],
+  "numeriques": [
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 1st sem (evaluations)"
+  ],
+  "methode": "Arbre de décision personnalisé (entropie), importance moyenne sur 15 arbres (CV 5 plis x 3), k choisi par F1 macro (règle 1 écart-type)",
+  "hyperparametres_arbre": {
+    "max_depth": 5,
+    "min_samples_leaf": 60,
+    "class_weight": "balanced"
+  },
+  "k_retenu": 4
+}
